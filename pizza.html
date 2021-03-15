@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+            <legend>Burger Wizard - Megrendelőlap</legend>
+            <label for="nevMezo">Név:*</label>
+            <input type="text" name="nevMezo" id="nev" required>
+            <label for="emailMezo">Email cím:*</label>
+            <input type="email" name="emailMezo" id="email" required>
+            <label for="cimMezo">Cím:*</label>
+            <input type="text" name="cimMezo" id="cim" required>
+            <label for="MegjMezo">Megjegyzés:*</label>
+            <textarea name="MegjMezo" id="megjegyzes" cols="30" rows="10"></textarea>
+            <p>Extra feltét</p>
+        <div class="valasztas">
+            <label ><input type="radio" name="feltet" id="nemker" value="nemker" checked>Nem kérek</label>
+            <label ><input type="radio" name="feltet" id="feltet1" value="feltet1">feltét1</label>
+            <label ><input type="radio" name="feltet" id="feltet2" value="feltet2">feltét2</label>
+            <label ><input type="radio" name="feltet" id="feltet3" value="feltet3">feltét3</label>
+            <label ><input type="radio" name="feltet" id="feltet4" value="feltet4">feltét4</label>
+            <label ><input type="radio" name="feltet" id="feltet5" value="feltet5">feltét5</label>
+        </div>
+            <label >Milyen szószt választ?
+                <select name="szosz" id="szosz1">
+                    <option value="szósz1">szósz1</option>
+                    <option value="szósz2">szósz2</option>
+                    <option value="szósz3">szósz3</option>
+                </select>
+            </label><br>
+            <input type="number" name="darabMezo" id="darab" value="1">
+            <label for="darabMezo" >Mennyiség</label><br>
+            <button>Rendelés leadása</button> Ár:1200 Ft
+
+
+
+
+    </fieldset>
+</body>
+</html>

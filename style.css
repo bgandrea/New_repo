@@ -1,0 +1,26 @@
+fieldset{
+    width: 60%;
+}
+input[type=text]{
+    display:block;
+}
+label{
+    display: block;
+}
+
+
+.valasztas{
+    display: block;
+    background-color: aquamarine;
+    color:blanchedalmond;
+}
+button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: chartreuse;
+}
+textarea{
+    background-color:mistyrose;
+}
